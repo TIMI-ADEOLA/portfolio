@@ -1,0 +1,438 @@
+/* index page */
+body {
+    display: flexbox;
+    background: black;
+}
+
+HTML CSSResult Skip Results Iframe EDIT ON
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat); */
+
+html,
+body {
+    display: flexbox;
+    height: 205%;
+    font-weight: 400;
+    background-position-y: center;
+}
+
+body {
+    /* background: yellow; */
+    display: flexbox;
+    font-family: Arial;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    width: 100%;
+    background-position: 0%;
+    gap: 2%;
+
+}
+
+svg {
+    display: flexbox;
+    font: 10.5em 'Montserrat';
+    width: 560px;
+    height: 200px;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.text-copy {
+    display: flexbox;
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+    display: flexbox;
+    stroke: white;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    display: flexbox;
+    stroke: green;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    display: flexbox;
+    stroke: white;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    display: flexbox;
+    stroke: green;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+    display: flexbox;
+    stroke: white;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+
+img {display: flexbox;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    object-fit: initial;
+
+}
+
+img:hover {
+    display: flexbox;
+    transform: scaleX(-1);
+}
+
+
+
+
+h1 {
+    display: flexbox;
+    font-family: 'Oswad', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    margin: 0%;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2 {
+    display: flexbox;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(171, 206, 125);
+    margin: auto;
+    width: 95%;
+
+}
+
+
+#first-div {
+    display: flexbox;
+    margin-bottom: auto;
+    width: 100%;
+    background-color: black;
+    list-style-position: outside;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+
+
+
+}
+
+p {
+    display: flexbox;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: rgb(68, 23, 193);
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background: rgba(6, 6, 6, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+#second-div {
+    display: flexbox;
+    margin-top: 0%;
+    background-color: rgb(211, 121, 10);
+}
+
+
+.nav-bar {
+    display: flexbox;
+    font-size: 20px;
+    color: black;
+    font-display: flex;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1%;
+    width: 95%;
+    /* color: rgb(168, 147, 27); */
+    justify-content: space-between;
+    
+    /* align-content: center; */
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+
+}
+
+.background {
+    display: flexbox;
+    background-color: black;
+}
+
+
+footer {
+    display: flexbox;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: gold;
+    line-height: 1%;
+}
+
+.fa {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    display: flex;
+    opacity: 0.5;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #af112b;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+/* gallery page */
+
+
+.photos {
+    display: flexbox;
+    padding: 4px;
+    background: rgba(6, 6, 6, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(137, 229, 17, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin: 7%;
+    gap: 2.5%;
+    text-align: center;
+    width: 90%;
+}
+
+/* gallery page end */
+/* index page end */
+/* 
+
+
+
+
+
+
+/* about me page */
+
+/* .video {
+                      
+    text-align: center;
+
+} */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    display: flexbox;
+    box-sizing: border-box;
+}
+
+.third-div {
+    width: 33%;
+    font-size: 30px;
+    background: rgba(6, 6, 6, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+ul.a {
+    font-size: medium;
+    color: antiquewhite;
+    list-style-position: outside;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+
+}
+
+
+
+
+ol.b {
+    font-size: small;
+    color: azure;
+    list-style-position: inside;
+    text-align: left;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(red, green, blue, alpha);
+}
+
+h3 {
+    color: #007bb5;
+    text-align: center;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+}
+
+h4 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0%;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+}
+
+h5 {
+    color: #007bb5;
+    text-align: center;
+}
+
+/* about me page end */
+
+/* contact page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: 50px;
+    box-sizing: content-box
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background-color: #0f1010;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    display: flexbox;
+
+    border-radius: 5px;
+    background-color: grey;
+    padding: 20px;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 50%;
+    /* background-color: black; */
+    list-style-position: outside;
+    /* background: black; */
+    box-shadow: 0 8px 32px 0 rgba(97, 145, 34, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(177, 19, 19, 0.18);
+
+}
+
+.social-contact {
+
+    text-align: center;
+    margin: 0%;
+    font-size: 10px;
+}
+
+
+/* contact page end */

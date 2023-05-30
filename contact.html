@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div id="first-div">
+        <h1>Welcome to my world</h1>
+        <!-- <h2>OLUNLOYO</h2> -->
+        <svg viewBox="0 0 960 300">
+            <symbol id="s-text">
+                <text text-anchor="center" x="10%" y="50%">.ADEOLA. </text>
+                <text text-anchor="centre" x="12%" y="50%">.ADEOLA. </text>
+            </symbol>
+    
+            <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+        </svg>
+    </div>
+    <div class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+   
+    <h3>Contact Form</h3>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="unitedkingdon">Unitedkingdom</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="usa">USA</option>
+                <option value="ghana">Ghana</option>
+                <option value="canada">Canada</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="social-contact">
+    </div>
+    <footer>
+        <div>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <small>Copyright © 2023 ADEOLA . All Rights Reserved.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
